@@ -19,6 +19,7 @@ workflow ichorCNA {
         Float maxFracGenomeSubclone
         Float max_passing_mad_score = 0.3
         Float min_passing_tumor_fraction = 0.1
+        Float min_passing_coverage = 0.1
     }
 
     Int bin_size = bin_size_kb * 1000
